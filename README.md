@@ -1,36 +1,29 @@
 # NeighborNet Static Site
 
-This repository contains the static version of the NeighborNet website, deployed to GitHub Pages.
+This is a static version of the NeighborNet website (neighbornet.co.il) generated from WordPress and optimized for GitHub Pages deployment.
 
 ## Site Structure
 
-- `export/` - Static site files for deployment
-- `site-static/` - Alternative static site structure
-- `current-site/` - Latest downloaded static site
+- `index.html` - Main homepage
+- `CNAME` - Custom domain configuration for neighbornet.co.il
+- `assets/` - CSS and other static assets
+- Various business pages in their own directories
 
 ## Deployment
 
-The site is automatically deployed to GitHub Pages when changes are pushed to the main branch.
+This site is configured for GitHub Pages deployment with the custom domain `neighbornet.co.il`.
 
-## Local Development
+## Pages Included
 
-To run the site locally:
+- AI Solutions for Businesses
+- Custom Website Development  
+- Professional Website Development
+- Real Estate Services
+- Pottery Workshops
+- Various business profiles and services
 
-```bash
-# Using Python's built-in server
-cd export
-python3 -m http.server 8000
+## Technical Details
 
-# Or using Node.js
-npx serve export
-```
-
-## Adding New Content
-
-1. Add new HTML files to the appropriate directory
-2. Update navigation links in existing pages
-3. Commit and push changes to trigger deployment
-
-## Custom Domain
-
-The site uses a custom domain (neighbornet.co.il) configured via CNAME file.
+- Generated using wget to create a static version of the WordPress site
+- Optimized for GitHub Pages hosting
+- Custom domain configured via CNAME file

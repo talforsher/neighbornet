@@ -1,40 +1,15 @@
-# WordPress files
-wordpress/
-mysql-data/
-uploads/
-
-# Docker
-docker-compose.yml
-
-# Logs
-wget-log*
+# Temporary files
+*.tmp
 *.log
-
-# OS files
 .DS_Store
 Thumbs.db
 
-# IDE files
+# Editor files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Node modules (if using any build tools)
-node_modules/
-
-# Python virtual environment
-.venv/
-venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Temporary files
-*.tmp
-*.temp
+# Backup files
+*.bak
+*.backup
